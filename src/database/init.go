@@ -40,10 +40,7 @@ func openDB(username, password, addr, name string) *gorm.DB {
 	db, err := gorm.Open("mysql", config)
 	if err != nil {
 		logrus.Fatalf("数据库连接失败. 数据库名字: %s. 错误信息: %s", name, err)
-	} else {
-		logrus.Infof("数据库连接成功, 数据库名字: %s", name)
 	}
-
 	setupDB(db)
 	return db
 }
@@ -59,6 +56,7 @@ func setupDB(db *gorm.DB) {
 func InitDB() *gorm.DB {
 	//return openDB("root", "123456", "127.0.0.1", "redpacket")
 	return openDB("root", "123456", "127.0.0.1", "fits2.0")
+	//return openDB("maps", "123456", "192.168.1.77", "maps-wuhan-2.0")
 }
 
 func GetDB() *gorm.DB {
