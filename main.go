@@ -5,7 +5,7 @@ import (
 	"github.com/gin-gonic/gin"
 	"log"
 	time2 "time"
-	"yanyun.com/src/database"
+	"yanyun.com/minigram/database"
 )
 
 //var database *gorm.DB
@@ -204,10 +204,12 @@ func UpdateInventory2DB(id int, count int) {
 	if err := db.Table("inventory").Where("id = ?", id).First(&inventory).Error; err != nil {
 		fmt.Println(err)
 	} else {
+		if inventory.ACTUAL != count {
+			log.Println("更新一条完工记录", inventory, "原值:", inventory.ACTUAL, "新值：", count)
+		}
 		//更新完工计数
 		if err := db.Table("inventory").Model(&inventory).Update("ACTUAL", count).Error; err != nil {
 			fmt.Println(err)
 		}
-		log.Println("更新一条完工记录:", inventory)
 	}
 }

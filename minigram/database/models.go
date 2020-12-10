@@ -1,17 +1,18 @@
 package database
 
 type Inventory struct {
-	ID          int    `json:"id" gorm:"column:ID;not null;primary_key"`
-	MODEL_CODE  string `json:"model_id" gorm:"column:MODEL_CODE;"`
-	QUANTITY    int    `gorm:"not null;column:QUANTITY"`
-	UNIT        string `json:"unit" gorm:"column:UNIT"`
-	TIME        int64  `json:"time" gorm:"column:TIME"`
-	TYPE        int    `json:"type" gorm:"column:TYPE"`
-	SHIFT_BEGIN int64  `json:"shift_begin" gorm:"column:SHIFT_BEGIN"`
-	SHIFT_END   int64  `json:"shift_end" gorm:"column:SHIFT_END"`
-	SHIFT_NAME  string `json:"shift_name" gorm:"column:SHIFT_NAME"`
-	ACTUAL      int    `json:"actual" gorm:"column:ACTUAL"`
-	EXPECT      int    `json:"expect" gorm:"column:EXPECT"`
+	ID         int    `json:"id" gorm:"column:ID;not null;primary_key"`
+	MODEL_CODE string `json:"model_id" gorm:"column:MODEL_CODE;"`
+	QUANTITY   int    `gorm:"not null;column:QUANTITY"`
+	UNIT       string `json:"unit" gorm:"column:UNIT"`
+	TIME       int64  `json:"time" gorm:"column:TIME"`
+	//TYPE        int    `json:"type" gorm:"column:TYPE"`
+	TYPE        []uint8 `json:"type" gorm:"column:TYPE"`
+	SHIFT_BEGIN int64   `json:"shift_begin" gorm:"column:SHIFT_BEGIN"`
+	SHIFT_END   int64   `json:"shift_end" gorm:"column:SHIFT_END"`
+	SHIFT_NAME  string  `json:"shift_name" gorm:"column:SHIFT_NAME"`
+	ACTUAL      int     `json:"actual" gorm:"column:ACTUAL"`
+	EXPECT      int     `json:"expect" gorm:"column:EXPECT"`
 }
 
 // TableName 定义表名字

@@ -15,7 +15,6 @@ type User struct {
 	Birthday time.Time `gorm`
 }
 
-
 func initDB() {
 	db, err := gorm.Open("mysql", "root:123456@/redpacket?charset=utf8&parseTime=True&loc=Local")
 	if err != nil {

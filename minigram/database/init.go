@@ -6,7 +6,7 @@ import (
 	_ "github.com/jinzhu/gorm/dialects/mysql"
 	"github.com/sirupsen/logrus"
 	"github.com/spf13/viper"
-	_ "yanyun.com/src/config"
+	_ "yanyun.com/minigram/config"
 )
 
 type Database struct {
@@ -55,8 +55,8 @@ func setupDB(db *gorm.DB) {
 
 func InitDB() *gorm.DB {
 	//return openDB("root", "123456", "127.0.0.1", "redpacket")
-	return openDB("root", "123456", "127.0.0.1", "fits2.0")
-	//return openDB("maps", "123456", "192.168.1.77", "maps-wuhan-2.0")
+	//return openDB("root", "123456", "127.0.0.1", "fits2.0")
+	return openDB("maps", "123456", "192.168.1.77", "maps-whp2.0-0911")
 }
 
 func GetDB() *gorm.DB {
