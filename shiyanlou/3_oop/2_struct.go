@@ -15,11 +15,21 @@ func main() {
 	s := person{name: "Sean", age: 50}
 	fmt.Println(s.name)
 	// 也可以对结构体指针使用`.` - 指针会被自动解引用。
+	// 结构体是可变的,如果是用指针会引用原始对象
 	sp := &s
 	fmt.Println(sp.age)
-	// 结构体是可变的。
 	sp.age = 51
 	fmt.Println(sp.age)
+	fmt.Println(s.age)
+
+	//结构体是可变的,如果是用指针会引用原始对象
+	spp := s
+	fmt.Println(spp.age)
+	sp.age = 53
+	fmt.Println(spp.age)
+	fmt.Println(sp.age)
+	fmt.Println(s.age)
+
 }
 
 // 这里的 `person` 结构体包含了 `name` 和 `age` 两个字段。

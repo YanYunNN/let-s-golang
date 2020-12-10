@@ -10,11 +10,14 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6127ebee-1aff-4836-8222-71c0ce03a339" name="Default Changelist" comment="add more api &amp; operation with go map/set">
+    <list default="true" id="6127ebee-1aff-4836-8222-71c0ce03a339" name="Default Changelist" comment="go base learning">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go_build_yanyun_com_shiyanlou_3_oop.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go_build_yanyun_com_shiyanlou_4_error_routine__1_.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shiyanlou/4_error&amp;routine/1_error_handle.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shiyanlou/4_error&amp;routine/2_routine.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/database/init.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/database/init.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/database/models.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/database/models.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shiyanlou/3_oop/2_struct.go" beforeDir="false" afterPath="$PROJECT_DIR$/shiyanlou/3_oop/2_struct.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,18 +39,24 @@
     <option name="indexEntireGoPath" value="false" />
   </component>
   <component name="ProjectId" id="1hET7h5MwtSHvxMn5ojqnuXOOgu" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="DefaultGoTemplateProperty" value="Go Application" />
     <property name="GO_FMT" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="go.import.settings.migrated" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/model" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -72,7 +81,7 @@
       <recent name="C:\Users\cloume\go\src\yanyun\src\router" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Go Build.go build yanyun.com/shiyanlou/4_error&amp;routine (1)">
     <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="yanyun" />
       <working_directory value="$PROJECT_DIR$" />
@@ -92,6 +101,35 @@
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
+    <configuration name="go build yanyun.com/shiyanlou/3_oop" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="yanyun" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/shiyanlou/3_oop/2_struct.go" />
+      <package value="yanyun.com/shiyanlou/3_oop" />
+      <directory value="$PROJECT_DIR$" />
+      <output_directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build yanyun.com/shiyanlou/4_error&amp;routine (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="yanyun" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/shiyanlou/4_error&amp;routine/2_routine.go" />
+      <package value="yanyun.com/shiyanlou/4_error&amp;routine" />
+      <directory value="$PROJECT_DIR$" />
+      <output_directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build yanyun.com/shiyanlou/4_error&amp;routine" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="yanyun" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/shiyanlou/4_error&amp;routine/1_error_handle.go" />
+      <package value="yanyun.com/shiyanlou/4_error&amp;routine" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
     <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
       <module name="yanyun" />
       <working_directory value="$PROJECT_DIR$" />
@@ -105,6 +143,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build yanyun.com/shiyanlou/4_error&amp;routine (1)" />
+        <item itemvalue="Go Build.go build yanyun.com/shiyanlou/4_error&amp;routine" />
+        <item itemvalue="Go Build.go build yanyun.com/shiyanlou/3_oop" />
         <item itemvalue="Go Build.go build yanyun.com" />
       </list>
     </recent_temporary>
@@ -126,8 +167,10 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="add more api &amp; operation with go map/set" />
-    <option name="LAST_COMMIT_MESSAGE" value="add more api &amp; operation with go map/set" />
+    <MESSAGE value="go base learning" />
+    <option name="LAST_COMMIT_MESSAGE" value="go base learning" />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
@@ -137,38 +180,44 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="447" y="69" width="1089" height="744" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1599725558612" />
-    <state x="823" y="215" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1599715639848">
+    <state x="823" y="215" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1607603342132">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state x="823" y="215" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824/-1920.0.1920.1160@0.0.1536.824" timestamp="1607603342132" />
     <state x="823" y="215" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1599715639848" />
     <state width="640" height="466" key="DebuggerActiveHint" timestamp="1599800164135">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="640" height="466" key="DebuggerActiveHint/0.0.1536.824/-1920.0.1920.1160@0.0.1536.824" timestamp="1599800164135" />
     <state width="492" height="466" key="DebuggerActiveHint/0.0.1536.824@0.0.1536.824" timestamp="1599741689426" />
-    <state x="915" y="159" key="EnvironmentVariablesDialog" timestamp="1599629154673">
+    <state x="915" y="159" key="EnvironmentVariablesDialog" timestamp="1607605093694">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state x="915" y="159" key="EnvironmentVariablesDialog/0.0.1536.824/-1920.0.1920.1160@0.0.1536.824" timestamp="1607605093694" />
     <state x="915" y="159" key="EnvironmentVariablesDialog/0.0.1536.824@0.0.1536.824" timestamp="1599629154673" />
-    <state width="1493" height="202" key="GridCell.Tab.0.bottom" timestamp="1600324850555">
+    <state x="548" y="167" key="FileChooserDialogImpl" timestamp="1607605098121">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="202" key="GridCell.Tab.0.bottom/0.0.1536.824/-1920.0.1920.1160@0.0.1536.824" timestamp="1600324850555" />
+    <state x="548" y="167" key="FileChooserDialogImpl/0.0.1536.824/-1920.0.1920.1160@0.0.1536.824" timestamp="1607605098121" />
+    <state width="1493" height="164" key="GridCell.Tab.0.bottom" timestamp="1607605182637">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="164" key="GridCell.Tab.0.bottom/0.0.1536.824/-1920.0.1920.1160@0.0.1536.824" timestamp="1607605182637" />
     <state width="1142" height="162" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1599749889656" />
-    <state width="1493" height="202" key="GridCell.Tab.0.center" timestamp="1600324850555">
+    <state width="1493" height="164" key="GridCell.Tab.0.center" timestamp="1607605182637">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="202" key="GridCell.Tab.0.center/0.0.1536.824/-1920.0.1920.1160@0.0.1536.824" timestamp="1600324850555" />
+    <state width="1493" height="164" key="GridCell.Tab.0.center/0.0.1536.824/-1920.0.1920.1160@0.0.1536.824" timestamp="1607605182637" />
     <state width="1142" height="162" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1599749889656" />
-    <state width="1493" height="202" key="GridCell.Tab.0.left" timestamp="1600324850555">
+    <state width="1493" height="164" key="GridCell.Tab.0.left" timestamp="1607605182637">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="202" key="GridCell.Tab.0.left/0.0.1536.824/-1920.0.1920.1160@0.0.1536.824" timestamp="1600324850555" />
+    <state width="1493" height="164" key="GridCell.Tab.0.left/0.0.1536.824/-1920.0.1920.1160@0.0.1536.824" timestamp="1607605182637" />
     <state width="1142" height="162" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1599749889656" />
-    <state width="1493" height="202" key="GridCell.Tab.0.right" timestamp="1600324850555">
+    <state width="1493" height="164" key="GridCell.Tab.0.right" timestamp="1607605182637">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="202" key="GridCell.Tab.0.right/0.0.1536.824/-1920.0.1920.1160@0.0.1536.824" timestamp="1600324850555" />
+    <state width="1493" height="164" key="GridCell.Tab.0.right/0.0.1536.824/-1920.0.1920.1160@0.0.1536.824" timestamp="1607605182637" />
     <state width="1142" height="162" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1599749889656" />
     <state width="1493" height="202" key="GridCell.Tab.1.bottom" timestamp="1600324850555">
       <screen x="0" y="0" width="1536" height="824" />
@@ -199,10 +248,10 @@
     </state>
     <state x="270" y="56" key="SettingsEditor/0.0.1536.824/-1920.0.1920.1160@0.0.1536.824" timestamp="1599788975020" />
     <state x="270" y="56" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1599647749731" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1599805283305">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1607603531097">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824/-1920.0.1920.1160@0.0.1536.824" timestamp="1599805283305" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824/-1920.0.1920.1160@0.0.1536.824" timestamp="1607603531097" />
     <state x="868" y="173" key="com.goide.refactor.move.GoMoveDeclarationDialog" timestamp="1599714050370">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
